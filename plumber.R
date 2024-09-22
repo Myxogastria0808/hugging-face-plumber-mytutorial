@@ -16,7 +16,7 @@ cors <- function(req, res) {
   }
 }
 
-#* Root Endpoint
+#* Root endpoint
 #* @get /
 function() {
   return("Hello")
